@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Monolith.Repository\Monolith.Repository.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="RandomNameGeneratorNG" Version="2.0.1" />
+    </ItemGroup>
+
+</Project>
